@@ -1,0 +1,83 @@
+body{
+     background-color: lavender;
+ }
+
+ header{
+     margin: 0px;
+     padding: 0px;
+ }
+
+ .main_menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-grow: initial;
+    padding: 0;
+}
+
+.main_menu-item{
+    text-align: center;
+    list-style: none;
+    padding: 1em;
+    font-family: 'Cormorant Unicase', serif;
+}
+
+ section{
+    font-size: 5vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+ }
+
+ h1{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 5em;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0.5em;
+ }
+
+ .subtitulo{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    border-bottom: solid whitesmoke 1px;
+    padding-bottom: 0.5em;
+    margin-top: 0px;
+ }
+
+ .hashtag{
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 5em;
+ }
+
+
+
+ footer{
+     background-color: whitesmoke;
+    
+     display: flex;
+     flex-direction: column;
+     align-items:center;
+     font-size: 3.5vw;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: bolder;
+
+ }
+
+ footer p{
+  padding: 0.1em;
+  margin: 0;
+  text-align: center;   
+ }
+
+
+ footer ol li{
+     list-style: none;
+     padding: 0.1em;
+ }
