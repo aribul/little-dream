@@ -89,7 +89,7 @@ body{
     margin-bottom: 3em;
 }
 
- footer{
+footer{
      background-color: whitesmoke;
      display: flex;
      flex-direction: column;
@@ -101,29 +101,74 @@ body{
 
  }
 
- footer p{
-  padding: 0.1em;
-  margin: 0;
-  text-align: center; 
-  font-size: 0.4em;  
+footer p{
+    padding: 0.1em;
+    margin: 0;
+    text-align: center; 
+    font-size: 0.4em;  
  }
 
- footer ol{
+footer ol{
      font-size: 0.5em;
      padding: 0px;
  }
 
 
- footer ol li{
+footer ol li{
      list-style: none;
      padding: 0.1em;
     
  }
 
+ /*Contacto*/
+
+ .contacto-article{
+     font-size: 30px;
+     padding: 10px;
+ }
+ .contacto-article p{
+    font-size: 0.4em;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+ }
+
+ .contacto-article ol li{
+     font-size: 0.5em;
+     text-align: center;
+     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    list-style: none;
+    padding-top: 0.5em;
+ }
+
+ .div-form{
+     font-size: 0.5em;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     align-items: left;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: bolder;
+     padding-top: 0.2em;
+     width: 80%;
+ }
+
+ .input-enviar{
+     background-color: #e092fc;
+     border-radius: 10px;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: bolder;
+     border-color: whitesmoke;
+     width: 30%;
+ }
+
+
+
 
  /*galeria de img*/
 .gallery{
-    font-size:5vw;
+    font-size:5.5vw;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -160,6 +205,24 @@ body{
     }
 }
 
+
+/*ABOUT*/
+
+.about-parrafo{
+    font-size: 0.3em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 1em;
+    
+}
+
+.about-parrafo_gracias{
+    padding: 1em;
+    font-size: 1em;
+    text-align: center;
+}
+
 /*LINKS*/
 .link_H1 {
     color: whitesmoke;
@@ -175,4 +238,36 @@ body{
 .link_menu{
     color: black;
     text-decoration: none;
+}
+
+/*QUERIES*/
+
+@media (min-width:576px){
+
+    footer{
+        font-size: 4vw;   
+    }    
+
+    div .main{
+        font-size: 2em;
+    }
+
+    .about-parrafo{
+        font-size: 0.2em;
+        width: 60%;
+    }
+}
+
+@media (min-width:768px){
+
+    footer{
+        font-size: 3vw;   
+    }    
+}
+
+@media (min-width:992px){
+
+    footer{
+        font-size: 2vw;   
+    }    
 }
